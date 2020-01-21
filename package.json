@@ -1,0 +1,19 @@
+{
+  "name": "odin-project-restaurant",
+  "version": "1.0.0",
+  "description": "Odin Project - Restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengordon1995/Odin-Project---Restaurant.git"
+  },
+  "author": "ben gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengordon1995/Odin-Project---Restaurant/issues"
+  },
+  "homepage": "https://github.com/bengordon1995/Odin-Project---Restaurant#readme"
+}
