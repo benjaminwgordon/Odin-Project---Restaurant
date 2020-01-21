@@ -4,6 +4,7 @@ const contact = () => {
     console.log("rendering container page contents")
 
     const container = document.getElementById('root')
+    container.className = 'navPage'
 
     let contactDiv = document.createElement('div')
     let contactContent = document.createElement('p')

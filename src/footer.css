@@ -1,0 +1,9 @@
+.footer {
+    background-color: white;
+    border-top: solid;
+    border-top-color: lightgrey;
+    border-top-width: 4px;
+    width: 95vw;
+    position: fixed;
+    bottom: 0;
+}

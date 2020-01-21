@@ -1,0 +1,25 @@
+.navButton {
+    background-color: white;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+.navButton.active {
+    border-bottom: solid;
+    border-bottom-width: 2px;
+}
+
+.navBar {
+    display: flex;
+    border-bottom: inset;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 4px;
+}
+
+#root {
+    align-content: center;
+    min-height: 110vh;
+}
