@@ -16,9 +16,7 @@ const render = () => {
 const clearContents = () => {
     //clean up container
     const container = document.getElementById('root')
-    while (container.firstChild) {
-        container.remove(container.firstChild)
-    }
+    container.innerHTML = ""
 }
 
 const navBar = () => {
@@ -27,18 +25,18 @@ const navBar = () => {
 
     let homeButton = document.createElement('button')
     homeButton.innerHTML = 'Home'
-    homeButton.onclick = () => {
+    homeButton.addEventListener('click', (event) => {
         currentTab = home
         render()
-    }
+    })
     navDiv.appendChild(homeButton)
 
     let contactButton = document.createElement('button')
     contactButton.innerText = 'Contact'
-    contactButton.onclick = () => {
+    contactButton.addEventListener('click', (event) => {
         currentTab = contact
         render()
-    }
+    })
     navDiv.appendChild(contactButton)
     container.appendChild(navDiv)
 }
